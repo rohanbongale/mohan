@@ -508,10 +508,11 @@ nav .nav-bar {
 }
 
 #index-banner .banner-main h2 {
-  color: white;
+  color: rgb(255, 255, 255);
   font-family: 'Alef', sans-serif;
   font-size: 2em;
   font-weight: 400;
+  text-shadow: 0 0 10px #000000, 0 0 10px #000000
 }
 
 @media (max-width: 768px) {
@@ -521,10 +522,12 @@ nav .nav-bar {
 }
 
 #index-banner .banner-main h1 {
-  color: white;
+  color: rgb(255, 255, 255);
   font-family: 'Alef', sans-serif;
   font-size: 1em;
   font-weight: 300;
+  text-shadow: 0 0 10px #000000, 0 0 10px #000000
+
 }
 
 @media (max-width: 768px) {
@@ -3243,9 +3246,8 @@ footer .footer-main .footer-column4 img {
 	color:#FFF;
 	border-radius:50px;
 	text-align:center;
-  font-size:28px;
+  font-size:30px;
 	box-shadow: 2px 2px 3px #999;
-  z-index:214748;
 }
 
 
